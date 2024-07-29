@@ -1,0 +1,23 @@
+<svg id="credit-card_3_" data-name="credit-card (3)" xmlns="http://www.w3.org/2000/svg" width="22.426" height="18.13" viewBox="0 0 22.426 18.13">
+  <path id="Path_11623" data-name="Path 11623" d="M21.455,4.657a1.563,1.563,0,0,0-1.295-1.79L2.42.02A1.562,1.562,0,0,0,.63,1.315L0,5.242v7.764l20.141.046Z" transform="translate(0.951)" fill="#146aa8"/>
+  <path id="Path_11624" data-name="Path 11624" d="M13.05,0C9.666,5.178,4.2,8.764,0,10.95l18.069.044L19.383,2.6A1.563,1.563,0,0,0,18.088.811v0Z" transform="translate(3.024 2.058)" fill="#126099"/>
+  <path id="Path_11625" data-name="Path 11625" d="M19.529,0a1.563,1.563,0,0,1,1.563,1.563V11.718a1.563,1.563,0,0,1-1.563,1.563H1.563A1.563,1.563,0,0,1,0,11.718V1.563A1.563,1.563,0,0,1,1.563,0H19.529Z" transform="translate(0 4.85)" fill="#4398d1"/>
+  <path id="Path_11626" data-name="Path 11626" d="M14.783,0C11.1,6.546,4.206,11.036,0,13.28H15.095a1.563,1.563,0,0,0,1.563-1.563V1.563A1.563,1.563,0,0,0,15.1,0h-.313Z" transform="translate(4.434 4.85)" fill="#3e8cc7"/>
+  <path id="Rectangle_796" data-name="Rectangle 796" d="M3.906,0V3.124H0V0Z" transform="translate(1.953 6.802)" fill="#fdb62f"/>
+  <g id="Group_7863" data-name="Group 7863" transform="translate(1.953 7.975)">
+    <path id="Rectangle_797" data-name="Rectangle 797" d="M1.172,0V.781H0V0Z" fill="#fd7b2f"/>
+    <path id="Rectangle_798" data-name="Rectangle 798" d="M1.172,0V.781H0V0Z" transform="translate(2.734)" fill="#fd7b2f"/>
+  </g>
+  <path id="Ellipse_168" data-name="Ellipse 168" d="M1.953,3.906A1.953,1.953,0,1,1,3.906,1.953,1.953,1.953,0,0,1,1.953,3.906Z" transform="translate(15.233 12.271)" fill="#fdb62f"/>
+  <path id="Ellipse_169" data-name="Ellipse 169" d="M1.953,3.906A1.953,1.953,0,1,1,3.906,1.953,1.953,1.953,0,0,1,1.953,3.906Z" transform="translate(12.89 12.271)" fill="#de4c3c"/>
+  <g id="Group_7864" data-name="Group 7864" transform="translate(1.563 6.802)">
+    <path id="Rectangle_799" data-name="Rectangle 799" d="M2.343,0V.781H0V0Z" transform="translate(0 5.859)" fill="#87ced9"/>
+    <path id="Rectangle_800" data-name="Rectangle 800" d="M2.343,0V.781H0V0Z" transform="translate(3.906 5.859)" fill="#87ced9"/>
+    <path id="Rectangle_801" data-name="Rectangle 801" d="M2.343,0V.781H0V0Z" transform="translate(7.812 5.859)" fill="#87ced9"/>
+    <path id="Rectangle_802" data-name="Rectangle 802" d="M10.155,0V.781H0V0Z" transform="translate(0 8.202)" fill="#87ced9"/>
+    <path id="Rectangle_803" data-name="Rectangle 803" d="M.781,0V1.563H0V0Z" transform="translate(12.108)" fill="#87ced9"/>
+    <path id="Rectangle_804" data-name="Rectangle 804" d="M.781,0V1.563H0V0Z" transform="translate(13.67)" fill="#87ced9"/>
+    <path id="Rectangle_805" data-name="Rectangle 805" d="M.781,0V1.563H0V0Z" transform="translate(15.233)" fill="#87ced9"/>
+    <path id="Rectangle_806" data-name="Rectangle 806" d="M.781,0V1.563H0V0Z" transform="translate(16.796)" fill="#87ced9"/>
+  </g>
+</svg>
