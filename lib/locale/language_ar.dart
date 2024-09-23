@@ -245,7 +245,7 @@ class LanguageAr extends BaseLanguage {
   String get home => 'الرئيسية';
 
   @override
-  String get category => 'الفئة';
+  String get category => 'الفئات';
 
   @override
   String get booking => 'حجوزات الخدمات';
@@ -260,7 +260,7 @@ class LanguageAr extends BaseLanguage {
   String get serviceName => 'اسم الخدمة';
 
   @override
-  String get service => 'الخدمة';
+  String get service => 'الخدمات';
 
   @override
   String get lblCancelReason => 'يرجى إدخال سبب إلغاء حجز هذه الخدمة.';
@@ -551,7 +551,7 @@ class LanguageAr extends BaseLanguage {
   String get lblSeeYourRatings => "عرض تقييماتك";
 
   @override
-  String get lblFeatured => "مميز";
+  String get lblFeatured => "الخدمات المميزة";
 
   @override
   String get lblNoServicesFound => "لم يتم العثور على خدمات";
