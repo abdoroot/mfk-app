@@ -274,16 +274,16 @@ class ProfileFragmentState extends State<ProfileFragment> {
                             });
                           },
                         ),
-                        SettingItemWidget(
-                          leading: ic_heart.iconImage(size: SETTING_ICON_SIZE),
-                          title: language.favouriteProvider,
-                          trailing: trailing,
-                          onTap: () {
-                            doIfLoggedIn(context, () {
-                              FavouriteProviderScreen().launch(context);
-                            });
-                          },
-                        ),
+                        // SettingItemWidget(
+                        //   leading: ic_heart.iconImage(size: SETTING_ICON_SIZE),
+                        //   title: language.favouriteProvider,
+                        //   trailing: trailing,
+                        //   onTap: () {
+                        //     doIfLoggedIn(context, () {
+                        //       FavouriteProviderScreen().launch(context);
+                        //     });
+                        //   },
+                        // ),
                         if (isLoginTypeUser)
                           SettingItemWidget(
                             leading: ic_lock.iconImage(size: SETTING_ICON_SIZE),
