@@ -77,6 +77,7 @@ class _DashboardFragmentState extends State<DashboardFragment> {
 
   bool _showSubscriptionOffer = true;
   @override
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
@@ -112,72 +113,72 @@ class _DashboardFragmentState extends State<DashboardFragment> {
                     return await 2.seconds.delay;
                   },
                   children: [
-                    Stack(
-                      children: [
-                        SliderLocationComponent(
-                          sliderList: snap.slider.validate(),
-                          featuredList: snap.featuredServices.validate(),
-                          callback: () async {
-                            appStore.setLoading(true);
+                    // Stack(
+                    //   children: [
+                    //     SliderLocationComponent(
+                    //       sliderList: snap.slider.validate(),
+                    //       featuredList: snap.featuredServices.validate(),
+                    //       callback: () async {
+                    //         appStore.setLoading(true);
+                    //         init();
+                    //         setState(() {});
+                    //       },
+                    //     ),
+                    //     PositionedDirectional(
+                    //         bottom: gethight(context, 40),
+                    //         start: getwidth(context, 0),
+                    //         end: getwidth(context, 0),
+                    //         child: AnimtedContainer2(
+                    //             On: _showSubscriptionOffer,
+                    //             widget: InkWell(
+                    //               onTap: () {
+                    //                 PlansScreen(
+                    //                   allPlans: true,
+                    //                 ).launch(context);
+                    //               },
+                    //               child: AnimatedContainer(
+                    //                 duration: Duration(milliseconds: 300),
+                    //                 height: _showSubscriptionOffer ? 100 : 0,
+                    //                 decoration: BoxDecoration(
+                    //                   color: primaryColor,
+                    //                   borderRadius: BorderRadius.only(
+                    //                     topLeft: Radius.circular(20),
+                    //                     topRight: Radius.circular(20),
+                    //                   ),
+                    //                 ),
+                    //                 child: _showSubscriptionOffer
+                    //                     ? Stack(
+                    //                         children: [
+                    //                           Center(
+                    //                             child: Text(
+                    //                               language
+                    //                                   .specialSubscriptionOffers,
+                    //                               style: primaryTextStyle(
+                    //                                   color: Colors.white,
+                    //                                   size: 16,
+                    //                                   weight: FontWeight.bold),
+                    //                             ),
+                    //                           ),
+                    //                           Positioned(
+                    //                             right: 10,
+                    //                             top: 10,
+                    //                             child: GestureDetector(
+                    //                               onTap: _hideSubscriptionOffer,
+                    //                               child: Icon(
+                    //                                 Icons.close,
+                    //                                 color: Colors.white,
+                    //                                 size: 20,
+                    //                               ),
+                    //                             ),
+                    //                           ),
+                    //                         ],
+                    //                       )
+                    //                     : null,
+                    //               ),
+                    //             ))),
+                    //   ],
+                    // ),
 
-                            init();
-                            setState(() {});
-                          },
-                        ),
-                        PositionedDirectional(
-                            bottom: gethight(context, 40),
-                            start: getwidth(context, 0),
-                            end: getwidth(context, 0),
-                            child: AnimtedContainer2(
-                                On: _showSubscriptionOffer,
-                                widget: InkWell(
-                                  onTap: () {
-                                    PlansScreen(
-                                      allPlans: true,
-                                    ).launch(context);
-                                  },
-                                  child: AnimatedContainer(
-                                    duration: Duration(milliseconds: 300),
-                                    height: _showSubscriptionOffer ? 100 : 0,
-                                    decoration: BoxDecoration(
-                                      color: primaryColor,
-                                      borderRadius: BorderRadius.only(
-                                        topLeft: Radius.circular(20),
-                                        topRight: Radius.circular(20),
-                                      ),
-                                    ),
-                                    child: _showSubscriptionOffer
-                                        ? Stack(
-                                            children: [
-                                              Center(
-                                                child: Text(
-                                                  language
-                                                      .specialSubscriptionOffers,
-                                                  style: primaryTextStyle(
-                                                      color: Colors.white,
-                                                      size: 16,
-                                                      weight: FontWeight.bold),
-                                                ),
-                                              ),
-                                              Positioned(
-                                                right: 10,
-                                                top: 10,
-                                                child: GestureDetector(
-                                                  onTap: _hideSubscriptionOffer,
-                                                  child: Icon(
-                                                    Icons.close,
-                                                    color: Colors.white,
-                                                    size: 20,
-                                                  ),
-                                                ),
-                                              ),
-                                            ],
-                                          )
-                                        : null,
-                                  ),
-                                ))),
-                      ],
-                    ),
                     30.height,
                     PendingBookingComponent(upcomingData: snap.upcomingData),
                     CategoryComponent(categoryList: snap.category.validate()),
