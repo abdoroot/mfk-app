@@ -286,7 +286,7 @@ class _ServiceDetailScreenState extends State<ServiceDetailScreen> with TickerPr
                 ).paddingAll(16),
                 slotsAvailable(data: snap.data!.serviceDetail!.bookingSlots.validate(), isSlotAvailable: snap.data!.serviceDetail!.isSlotAvailable),
                 availableWidget(data: snap.data!.serviceDetail!),
-                providerWidget(data: snap.data!.provider!),
+                //providerWidget(data: snap.data!.provider!),
 
                 /// Only active status package display
                 if (snap.data!.serviceDetail!.servicePackage.validate().isNotEmpty)

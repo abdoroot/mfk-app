@@ -1315,7 +1315,7 @@ class _BookingDetailScreenState extends State<BookingDetailScreen> {
                       ),
 
                       /// About Provider Card
-                      providerWidget(res: snap.data!),
+                      //providerWidget(res: snap.data!),
 
                       ///Add-ons
                       if (snap.data!.bookingDetail!.serviceaddon

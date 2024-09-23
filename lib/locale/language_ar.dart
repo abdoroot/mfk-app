@@ -206,7 +206,7 @@ class LanguageAr extends BaseLanguage {
   String get review => 'مراجعة';
 
   @override
-  String get hintDescription => 'أدخل وصفك';
+  String get hintDescription => 'الوصف';
 
   @override
   String get lblApply => 'تطبيق';
