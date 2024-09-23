@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "96950530436",
+    "firebase_url": "https://mfkuae-a09a4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mfkuae-a09a4",
+    "storage_bucket": "mfkuae-a09a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96950530436:android:cf94c7eb331af41a542dd1",
+        "android_client_info": {
+          "package_name": "com.iqonic.servicebooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96950530436-c43k9vod07oaud185i9qkk75fc0t5fl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdEwlJHGN2fZCcZq6YrYFnu8I1vMQR5_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96950530436-c43k9vod07oaud185i9qkk75fc0t5fl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,22 +4,24 @@ import '../utils/configs.dart';
 
 class LanguageAr extends BaseLanguage {
   @override
-  String get thankYou => 'شكرا!';
+  String get thankYou => 'شكرًا!';
 
   @override
-  String get noPackageOffers => 'لا يوجد عروض لباقات حاليا';
+  String get noPackageOffers => 'لا توجد عروض لخطط حاليًا';
 
   @override
-  String get noSubscribedPackages => 'لم تشترك في اي باقات حتى الان';
+  String get noSubscribedPackages => 'لم تقم بالاشتراك في أي باقة حتى الآن';
+
   @override
   String get orderSuccess =>
-      'تم إنشاء طلبك بنجاح. إنه قيد المراجعة حاليًا وسنخطرك قريبًا.';
+      'تم إنشاء طلبك بنجاح. هو قيد المراجعة حاليًا، وسنقوم بإخطارك قريبًا.';
 
   @override
   String get close => 'إغلاق';
 
   @override
   String get goToMyPlans => 'اشتراكاتي';
+
   @override
   String get walkTitle1 => 'العثور على خدماتك';
 
@@ -34,46 +36,60 @@ class LanguageAr extends BaseLanguage {
 
   @override
   String get signIn => 'تسجيل الدخول';
+
   @override
   String get lblPlans => 'الباقات';
-// Arabic
+
   @override
   String get hintTaxTxt => 'الضريبة';
-  // Arabic
 
   @override
   String get yourCartIsEmpty => 'سلة التسوق فارغة';
+
   @override
   String get hintDiscountTxt => 'الخصم';
+
   @override
   String get hintTotalAmountTxt => 'المبلغ الإجمالي';
+
   @override
   String get hintQuantityTxt => 'الكمية';
+
   @override
   String get hintPriceTxt => 'السعر';
+
   @override
   String get hintCreditCardTxt => 'بطاقة ائتمان';
+
   @override
-  String get hintCashTxt => 'نقداً';
+  String get hintCashTxt => 'نقدًا';
+
   @override
   String get hintSubtotalTxt => 'المجموع الفرعي';
+
   @override
   String get fieldIsRequiredTxt => 'هذا الحقل مطلوب';
+
   @override
   String get proceedToCheckout => 'متابعة الدفع';
+
   @override
-  String get addToCartTxt => "أضف إلى السلة";
-  // Arabic
+  String get addToCartTxt => 'أضف إلى السلة';
+
   @override
   String get createOrderTxt => 'إنشاء الطلب';
+
   @override
   String get reload => 'إعادة تحميل';
+
   @override
   String get choosePlan => 'اختر الخطة';
+
   @override
   String get featuresPlan => 'مميزات الخطة';
+
   @override
-  String get signUp => 'انشئ حساب';
+  String get signUp => 'إنشاء حساب';
 
   @override
   String get hintFirstNameTxt => 'أدخل اسمك الأول';
@@ -85,31 +101,31 @@ class LanguageAr extends BaseLanguage {
   String get hintContactNumberTxt => 'أدخل رقم الاتصال الخاص بك';
 
   @override
-  String get hintEmailAddressTxt => 'أدخل عنوان بريدك الالكتروني';
+  String get hintEmailAddressTxt => 'أدخل بريدك الإلكتروني';
 
   @override
   String get hintUserNameTxt => 'اسم المستخدم';
 
   @override
-  String get hintPasswordTxt => 'ادخل رقمك السري';
+  String get hintPasswordTxt => 'أدخل كلمة المرور';
 
   @override
-  String get hintReenterPasswordTxt => 'إعادة إدخال كلمة المرور الخاصة بك';
+  String get hintReenterPasswordTxt => 'أعد إدخال كلمة المرور';
 
   @override
-  String get confirm => 'تاكيد';
+  String get confirm => 'تأكيد';
 
   @override
   String get hintEmailTxt => 'أدخل بريدك الإلكتروني';
 
   @override
-  String get forgotPassword => 'هل نسيت كلمة السر؟';
+  String get forgotPassword => 'نسيت كلمة المرور؟';
 
   @override
-  String get alreadyHaveAccountTxt => 'هل لديك حساب';
+  String get alreadyHaveAccountTxt => 'هل لديك حساب؟';
 
   @override
-  String get rememberMe => 'تذكرنى';
+  String get rememberMe => 'تذكرني';
 
   @override
   String get resetPassword => 'إعادة تعيين كلمة المرور';
@@ -121,100 +137,100 @@ class LanguageAr extends BaseLanguage {
   String get editProfile => 'تعديل الملف الشخصي';
 
   @override
-  String get camera => 'آلة تصوير';
+  String get camera => 'الكاميرا';
 
   @override
-  String get language => 'لغة';
+  String get language => 'اللغة';
 
   @override
-  String get appTheme => 'موضوع التطبيق';
+  String get appTheme => 'سمة التطبيق';
 
   @override
-  String get bookingHistory => 'حجز التاريخ';
+  String get bookingHistory => 'سجل الحجوزات';
 
   @override
   String get rateUs => 'قيمنا';
 
   @override
-  String get termsCondition => 'الشروط والحالة';
+  String get termsCondition => 'الشروط والأحكام';
 
   @override
-  String get helpSupport => 'ساعد لدعم';
+  String get helpSupport => 'المساعدة والدعم';
 
   @override
-  String get privacyPolicy => 'سياسة خاصة';
+  String get privacyPolicy => 'سياسة الخصوصية';
 
   @override
-  String get about => 'عن';
+  String get about => 'حول';
 
   @override
-  String get logout => 'تسجيل خروج';
+  String get logout => 'تسجيل الخروج';
 
   @override
-  String get chooseTheme => 'اختر موضوع التطبيق';
+  String get chooseTheme => 'اختر سمة التطبيق';
 
   @override
-  String get selectCountry => 'حدد الدولة';
+  String get selectCountry => 'اختر الدولة';
 
   @override
-  String get selectState => 'اختر مدينة';
+  String get selectState => 'اختر المنطقة';
 
   @override
-  String get selectCity => 'اختر مدينة';
+  String get selectCity => 'اختر المدينة';
 
   @override
   String get changePassword => 'تغيير كلمة المرور';
 
   @override
-  String get passwordNotMatch => "كلمة السر غير متطابقة";
+  String get passwordNotMatch => 'كلمات المرور غير متطابقة';
 
   @override
-  String get doNotHaveAccount => "ليس لديك حساب؟";
+  String get doNotHaveAccount => 'ليس لديك حساب؟';
 
   @override
-  String get hintNewPasswordTxt => "أدخل كلمة المرور الجديدة";
+  String get hintNewPasswordTxt => 'أدخل كلمة المرور الجديدة';
 
   @override
-  String get hintOldPasswordTxt => "أدخل كلمة المرور القديمة";
+  String get hintOldPasswordTxt => 'أدخل كلمة المرور القديمة';
 
   @override
   String get hintAddress => 'أدخل عنوانك';
 
   @override
-  String get lblGallery => "صالة عرض";
+  String get lblGallery => 'المعرض';
 
   @override
-  String get yourReview => "مراجعتك";
+  String get yourReview => 'تقييمك';
 
   @override
-  String get review => "إعادة النظر";
+  String get review => 'مراجعة';
 
   @override
-  String get hintDescription => "أدخل الوصف الخاص بك";
+  String get hintDescription => 'أدخل وصفك';
 
   @override
-  String get lblApply => "تطبيق";
+  String get lblApply => 'تطبيق';
 
   @override
-  String get bookTheService => "حجز الخدمة";
+  String get bookTheService => 'حجز الخدمة';
 
   @override
-  String get contactAdmin => "يرجى الاتصال مع المسؤول";
+  String get contactAdmin => 'يرجى الاتصال بالمسؤول';
 
   @override
   String get allServices => 'جميع الخدمات';
 
   @override
-  String get duration => 'مدة';
+  String get duration => 'المدة';
 
   @override
-  String get hourly => "بالساعة";
+  String get hourly => 'بالساعة';
 
   @override
-  String get payment => "قسط";
+  String get payment => 'الدفع';
 
   @override
-  String get done => "منتهي";
+  String get done => 'تم';
 
   @override
   String get totalAmount => 'المبلغ الإجمالي';
@@ -229,46 +245,46 @@ class LanguageAr extends BaseLanguage {
   String get home => 'الرئيسية';
 
   @override
-  String get category => 'فئة';
+  String get category => 'الفئة';
 
   @override
   String get booking => 'حجوزات الخدمات';
 
   @override
-  String get profile => 'ملفي';
+  String get profile => 'ملفي الشخصي';
 
   @override
-  String get lblAlertBooking => 'هل أنت متأكد من حجز هذه الخدمة';
+  String get lblAlertBooking => 'هل أنت متأكد من حجز هذه الخدمة؟';
 
   @override
   String get serviceName => 'اسم الخدمة';
 
   @override
-  String get service => 'خدمة';
+  String get service => 'الخدمة';
 
   @override
-  String get lblCancelReason => 'الرجاء إدخال السبب لإلغاء حجز الخدمة هذه.';
+  String get lblCancelReason => 'يرجى إدخال سبب إلغاء حجز هذه الخدمة.';
 
   @override
-  String get enterReason => "أدخل السبب هنا";
+  String get enterReason => 'أدخل السبب هنا';
 
   @override
-  String get noDataAvailable => 'لا تتوافر بيانات';
+  String get noDataAvailable => 'لا توجد بيانات متاحة';
 
   @override
-  String get lblOk => 'نعم';
+  String get lblOk => 'موافق';
 
   @override
   String get paymentDetail => 'تفاصيل الدفع';
 
   @override
-  String get paymentStatus => 'حالة السداد';
+  String get paymentStatus => 'حالة الدفع';
 
   @override
   String get viewDetail => 'عرض التفاصيل';
 
   @override
-  String get appThemeLight => 'اضاءة';
+  String get appThemeLight => 'فاتح';
 
   @override
   String get appThemeDark => 'داكن';
@@ -277,188 +293,188 @@ class LanguageAr extends BaseLanguage {
   String get appThemeDefault => 'النظام الافتراضي';
 
   @override
-  String get markAsRead => "اشر عليها بانها قرات";
+  String get markAsRead => 'وضع علامة كمقروء';
 
   @override
-  String lblYes = 'نعم';
+  String get lblYes => 'نعم';
 
   @override
-  String lblNo = 'لا';
+  String get lblNo => 'لا';
 
   @override
-  String btnRate = "قيم الآن";
+  String get btnRate => 'قيم الآن';
 
   @override
-  String btnSubmit = "ارسال";
+  String get btnSubmit => 'إرسال';
 
   @override
-  String walkThrough1 = "العثور على خدمة حسب تفضيلاتك.";
+  String get walkThrough1 => 'ابحث عن خدمة تناسب تفضيلاتك.';
 
   @override
-  String walkThrough2 = "خدمات كتاب في وقتك.";
+  String get walkThrough2 => 'احجز خدمات في وقتك المفضل.';
 
   @override
-  String walkThrough3 = "اختر الخيار الأفضل للدفع واحصل على أفضل خدمة.";
+  String get walkThrough3 => 'اختر الخيار الأفضل للدفع واحصل على أفضل خدمة.';
 
   @override
-  String lblNotification = "إشعارات";
+  String get lblNotification => 'الإشعارات';
 
   @override
-  String get lblUnAuthorized => "لا يمكن منح المستخدم التجريبي لهذا الإجراء";
+  String get lblUnAuthorized => 'لا يُسمح للمستخدم التجريبي بتنفيذ هذا الإجراء';
 
   @override
-  String get btnNext => "التالي";
+  String get btnNext => 'التالي';
 
   @override
-  String get lblViewAll => "عرض الكل";
+  String get lblViewAll => 'عرض الكل';
 
   @override
-  String get notAvailable => "غير متوفر";
+  String get notAvailable => 'غير متوفر';
 
   @override
-  String get lblFavorite => "الخدمات المفضلة";
+  String get lblFavorite => 'الخدمات المفضلة';
 
   @override
-  String get lblChat => "دردشة";
+  String get lblChat => 'الدردشة';
 
   @override
-  String get getLocation => "الحصول على الموقع";
+  String get getLocation => 'الحصول على الموقع';
 
   @override
-  String get setAddress => "تعيين العنوان";
+  String get setAddress => 'تعيين العنوان';
 
   @override
-  String get requiredText => "هذه الخانة مطلوبه";
+  String get requiredText => 'هذه الخانة مطلوبة';
 
   @override
-  String get phnRequiredText => "الرجاء إدخال رقم الهاتف المحمول";
+  String get phnRequiredText => 'يرجى إدخال رقم الهاتف المحمول';
 
   @override
-  String get lblCall => "اتصال";
+  String get lblCall => 'اتصال';
 
   @override
-  String get lblRateHandyman => "مكالمة";
+  String get lblRateHandyman => 'قيم الفني';
 
   @override
   String get msgForLocationOn =>
-      'يتم تشغيل موقعك. استمر في عرض الخدمات المتاحة من جميع المجالات؟';
+      'موقعك مفعّل. هل تريد الاستمرار في عرض الخدمات المتاحة من جميع المناطق؟';
 
   @override
   String get msgForLocationOff =>
-      'يتم إيقاف تشغيل موقعك. اكتشف وابحث عن الخدمات المتاحة لمنطقتك المختارة.';
+      'موقعك غير مفعّل. استكشف وابحث عن الخدمات المتاحة في منطقتك المختارة.';
 
   @override
-  String get lblEnterPhnNumber => "أدخل رقم هاتفك";
+  String get lblEnterPhnNumber => 'أدخل رقم هاتفك';
 
   @override
-  String get btnSendOtp => "إرسال OTP.";
+  String get btnSendOtp => 'إرسال رمز التحقق (OTP)';
 
   @override
-  String get lblLocationOff => "جميع الخدمات المتاحة";
+  String get lblLocationOff => 'الخدمات المتاحة';
 
   @override
-  String get lblAppSetting => "إعداد التطبيق";
+  String get lblAppSetting => 'إعدادات التطبيق';
 
   @override
-  String get lblSubTotal => "قيمة الضريبة";
+  String get lblSubTotal => 'الإجمالي الفرعي';
 
   @override
-  String get lblImage => "صورة";
+  String get lblImage => 'الصورة';
 
   @override
-  String get lblVideo => "فيديو";
+  String get lblVideo => 'الفيديو';
 
   @override
-  String get lblAudio => "صوتي";
+  String get lblAudio => 'الصوت';
 
   @override
   String get lblChangePwdTitle =>
-      "يجب أن تكون كلمة المرور الجديدة مختلفة عن كلمة المرور السابقة المستخدمة";
+      'يجب أن تكون كلمة المرور الجديدة مختلفة عن كلمة المرور السابقة';
 
   @override
   String get lblForgotPwdSubtitle =>
-      "سيتم إرسال رابط إعادة تعيين كلمة المرور إلى عنوان البريد الإلكتروني الذي تم إدخاله أعلاه";
+      'سيتم إرسال رابط إعادة تعيين كلمة المرور إلى البريد الإلكتروني المدخل أعلاه';
 
   @override
-  String get lblLoginTitle => "مرحبا مجددا ";
+  String get lblLoginTitle => 'مرحبًا بعودتك';
 
   @override
-  String get lblLoginSubTitle => "مرحبًا بك مرة أخرى ، لقد فاتتك لفترة طويلة";
+  String get lblLoginSubTitle => 'لقد افتقدناك منذ فترة';
 
   @override
-  String get lblOrContinueWith => "أو متابعة";
+  String get lblOrContinueWith => 'أو المتابعة باستخدام';
 
   @override
-  String get lblHelloUser => "مرحبا المستخدم!";
+  String get lblHelloUser => 'مرحبًا أيها المستخدم!';
 
   @override
-  String get lblSignUpSubTitle => 'قم بإنشاء حسابك لتجربة أفضل';
+  String get lblSignUpSubTitle => 'أنشئ حسابك لتجربة أفضل';
 
   @override
-  String get lblStepper1Title => "أدخل معلومات التفاصيل";
+  String get lblStepper1Title => 'أدخل التفاصيل';
 
   @override
-  String get lblDateAndTime => ":التاريخ و الوقت";
+  String get lblDateAndTime => 'التاريخ والوقت:';
 
   @override
   String get chooseDateAndTime => 'اختر التاريخ والوقت';
 
   @override
-  String get lblYourAddress => "عنوانك";
+  String get lblYourAddress => 'عنوانك';
 
   @override
-  String get lblEnterYourAddress => "أدخل عنوانك";
+  String get lblEnterYourAddress => 'أدخل عنوانك';
 
   @override
-  String get lblUseCurrentLocation => "استخدام الموقع الحالي";
+  String get lblUseCurrentLocation => 'استخدام الموقع الحالي';
 
   @override
-  String get lblEnterDescription => "أدخل الوصف";
+  String get lblEnterDescription => 'أدخل الوصف';
 
   @override
-  String get lblPrice => "السعر";
+  String get lblPrice => 'السعر';
 
   @override
-  String get lblTax => "ضريبة";
+  String get lblTax => 'الضريبة';
 
   @override
-  String get lblDiscount => "خصم";
+  String get lblDiscount => 'الخصم';
 
   @override
-  String get lblAvailableCoupons => "كوبونات المتاحة";
+  String get lblAvailableCoupons => 'الكوبونات المتاحة';
 
   @override
-  String get lblPrevious => "السابق";
+  String get lblPrevious => 'السابق';
 
   @override
-  String get lblCoupon => "كوبون";
+  String get lblCoupon => 'القسيمة';
 
   @override
-  String get lblEditYourReview => "تحرير تقييمك";
+  String get lblEditYourReview => 'تحرير تقييمك';
 
   @override
-  String get lblTime => "الوقت";
+  String get lblTime => 'الوقت';
 
   @override
-  String get textProvider => "مزود";
+  String get textProvider => 'مزود الخدمة';
 
   @override
-  String get lblConfirmBooking => "تأكيد الحجز";
+  String get lblConfirmBooking => 'تأكيد الحجز';
 
   @override
   String get lblConfirmMsg => 'هل تريد تأكيد هذا الحجز؟';
 
   @override
-  String get lblCancel => "الغاء";
+  String get lblCancel => 'إلغاء';
 
   @override
-  String get lblExpiryDate => "تاريخ الانتهاء :";
+  String get lblExpiryDate => 'تاريخ الانتهاء:';
 
   @override
-  String get lblRemoveCoupon => "إزالة القسيمة";
+  String get lblRemoveCoupon => 'إزالة القسيمة';
 
   @override
-  String get lblNoCouponsAvailable => "لا كوبونات متاحة";
+  String get lblNoCouponsAvailable => "لا توجد كوبونات متاحة";
 
   @override
   String get lblStep1 => "الخطوة 1";
@@ -470,30 +486,30 @@ class LanguageAr extends BaseLanguage {
   String get lblBookingID => "معرف الحجز";
 
   @override
-  String get lblDate => "تاريخ";
+  String get lblDate => "التاريخ";
 
   @override
-  String get lblAboutHandyman => "حول العمل اليدوي";
+  String get lblAboutHandyman => "حول العامل اليدوي";
 
   @override
-  String get lblAboutProvider => "حول مزود";
+  String get lblAboutProvider => "حول المزود";
 
   @override
-  String get lblNotRatedYet => "لم تقيم بعد";
+  String get lblNotRatedYet => "لم يتم التقييم بعد";
 
   @override
   String get lblDeleteReview => "حذف التقييم";
 
   @override
   String get lblConfirmReviewSubTitle =>
-      "هل أنت متأكد أنك تريد تاكيد هذه المراجعة؟";
+      "هل أنت متأكد من أنك تريد تأكيد هذا التقييم؟";
 
   @override
-  String get lblConfirmService => "هل أنت متأكد من أنك تريد تاكيد هذه الخدمة؟";
+  String get lblConfirmService => "هل أنت متأكد من أنك تريد تأكيد هذه الخدمة؟";
 
   @override
   String get lblConFirmResumeService =>
-      "هل أنت متأكد أنك تريد استئناف هذه الخدمة؟";
+      "هل أنت متأكد من أنك تريد استئناف هذه الخدمة؟";
 
   @override
   String get lblEndServicesMsg => "هل ترغب في إنهاء هذه الخدمة؟";
@@ -508,22 +524,22 @@ class LanguageAr extends BaseLanguage {
   String get lblHold => "تعليق العمل";
 
   @override
-  String get lblResume => "سيرة ذاتية";
+  String get lblResume => "استئناف";
 
   @override
   String get lblPayNow => "ادفع الآن";
 
   @override
-  String get lblCheckStatus => "تحقق من حالة";
+  String get lblCheckStatus => "تحقق من الحالة";
 
   @override
-  String get lblID => "هوية شخصية";
+  String get lblID => "الهوية";
 
   @override
-  String get lblNoBookingsFound => "لا توجد حجوزات";
+  String get lblNoBookingsFound => "لم يتم العثور على حجوزات";
 
   @override
-  String get lblCategory => "فئة";
+  String get lblCategory => "الفئة";
 
   @override
   String get lblYourComment => "تعليقك";
@@ -532,10 +548,10 @@ class LanguageAr extends BaseLanguage {
   String get lblIntroducingCustomerRating => "تقديم تصنيف العملاء";
 
   @override
-  String get lblSeeYourRatings => "انظر تقييماتك";
+  String get lblSeeYourRatings => "عرض تقييماتك";
 
   @override
-  String get lblFeatured => "مميزة";
+  String get lblFeatured => "مميز";
 
   @override
   String get lblNoServicesFound => "لم يتم العثور على خدمات";
@@ -547,37 +563,37 @@ class LanguageAr extends BaseLanguage {
   String get lblAboutApp => "حول التطبيق";
 
   @override
-  String get lblPurchaseCode => "شراء شفرة المصدر الكامل";
+  String get lblPurchaseCode => "شراء الكود المصدري الكامل";
 
   @override
-  String get lblNoRateYet => "حاليا لم تقيم أي خدمات";
+  String get lblNoRateYet => "لم تقم بتقييم أي خدمات بعد";
 
   @override
-  String get lblMemberSince => "عضو منذ ذلك الحين";
+  String get lblMemberSince => "عضو منذ";
 
   @override
   String get lblFilterBy => "تصنيف بواسطة";
 
   @override
-  String get lblClearFilter => "حذف التصنيف";
+  String get lblClearFilter => "إزالة التصنيف";
 
   @override
   String get lblNoReviews => "لم يتم تقديم تعليقات";
 
   @override
-  String get lblUnreadNotification => "اشعار غير مقروء";
+  String get lblUnreadNotification => "إشعار غير مقروء";
 
   @override
   String get lblChoosePaymentMethod => "اختر وسيلة الدفع";
 
   @override
-  String get lblNoPayments => "لا مدفوعات";
+  String get lblNoPayments => "لا توجد مدفوعات";
 
   @override
-  String get lblPayWith => "هل تريد أن تدفع مع";
+  String get lblPayWith => "الدفع باستخدام";
 
   @override
-  String get payWith => "ادفع من خلال";
+  String get payWith => "ادفع باستخدام";
 
   @override
   String get lblYourRating => "تقييمك";
@@ -592,16 +608,16 @@ class LanguageAr extends BaseLanguage {
   String get lblDeleteRatingMsg => "هل أنت متأكد من أنك تريد حذف هذا التقييم؟";
 
   @override
-  String get lblSelectRating => 'التصنيف مطلوب';
+  String get lblSelectRating => "التصنيف مطلوب";
 
   @override
-  String get lblNoServiceRatings => "لا تقييمات للخدمة";
+  String get lblNoServiceRatings => "لا توجد تقييمات للخدمة";
 
   @override
-  String get lblSearchFor => "بحث عن";
+  String get lblSearchFor => "البحث عن";
 
   @override
-  String get lblRating => "تقييم";
+  String get lblRating => "التقييم";
 
   @override
   String get lblAvailableAt => "متاح في";
@@ -613,17 +629,17 @@ class LanguageAr extends BaseLanguage {
   String get lblBookNow => "احجز الآن";
 
   @override
-  String get lblWelcomeToHandyman => "مرحبا بكم في $APP_NAME.";
+  String get lblWelcomeToHandyman => "مرحبًا بك في $APP_NAME.";
 
   @override
   String get lblWalkThroughSubTitle =>
-      "خدمة $APP_NAME - تطبيق خدمات المنزل عند الطلب مع حل كامل";
+      "خدمة $APP_NAME - تطبيق لخدمات المنازل حسب الطلب مع حلول شاملة";
 
   @override
-  String get textHandyman => "Handyman";
+  String get textHandyman => "العامل اليدوي";
 
   @override
-  String get lblChooseFromMap => "اختر من بين الخريطة";
+  String get lblChooseFromMap => "اختر من الخريطة";
 
   @override
   String get lblDeleteAddress => "حذف العنوان";
@@ -632,22 +648,22 @@ class LanguageAr extends BaseLanguage {
   String get lblDeleteSunTitle => "هل أنت متأكد من أنك تريد حذف هذا العنوان؟";
 
   @override
-  String get lblFaq => "أسئلة وأجوبة";
+  String get lblFaq => "الأسئلة الشائعة";
 
   @override
-  String get lblServiceFaq => "أسئلة وأجوبة الخدمة";
+  String get lblServiceFaq => "الأسئلة الشائعة للخدمة";
 
   @override
-  String get lblLogoutTitle => "أوه لا ، أنت تغادر!";
+  String get lblLogoutTitle => "أوه لا، أنت تغادر!";
 
   @override
-  String get lblLogoutSubTitle => "هل ترغب بالخروج؟";
+  String get lblLogoutSubTitle => "هل ترغب في تسجيل الخروج؟";
 
   @override
   String get lblFeaturedProduct => "هذا المنتج مميز";
 
   @override
-  String get lblAlert => "إنذار";
+  String get lblAlert => "تنبيه";
 
   @override
   String get lblOnBase => "على أساس";
@@ -656,10 +672,10 @@ class LanguageAr extends BaseLanguage {
   String get lblInvalidCoupon => "كود القسيمة غير صالح";
 
   @override
-  String get lblSelectCode => "يرجى اختيار رمز القسيمة";
+  String get lblSelectCode => "يرجى اختيار كود القسيمة";
 
   @override
-  String get lblBackPressMsg => "اضغط مرة أخرى مرة أخرى للخروج من التطبيق";
+  String get lblBackPressMsg => "اضغط مرة أخرى للخروج من التطبيق";
 
   @override
   String get lblHour => "ساعة";
@@ -678,19 +694,19 @@ class LanguageAr extends BaseLanguage {
 
   @override
   String get lblWalkThrough0 =>
-      "خدمة Handyman - تطبيق الخدمات المنزلية عند الطلب مع حل كامل";
+      "خدمة Handyman - تطبيق الخدمات المنزلية حسب الطلب مع حلول شاملة";
 
   @override
-  String get lblServiceTotalTime => "إجمالي الخدمة";
+  String get lblServiceTotalTime => "إجمالي وقت الخدمة";
 
   @override
-  String get lblDateTimeUpdated => 'تم الانتهاء من تاريخ الحجز والوقت بنجاح';
+  String get lblDateTimeUpdated => 'تم تحديث تاريخ ووقت الحجز بنجاح';
 
   @override
-  String get lblSelectDate => "الرجاء تحديد وقت التاريخ";
+  String get lblSelectDate => "الرجاء تحديد التاريخ والوقت";
 
   @override
-  String get lblReasonCancelling => "سبب:";
+  String get lblReasonCancelling => "السبب:";
 
   @override
   String get lblReasonRejecting => "سبب رفض هذا الحجز";
@@ -702,25 +718,26 @@ class LanguageAr extends BaseLanguage {
   String get lblNotDescription => "لا يوجد وصف متاح";
 
   @override
-  String get lblMaterialTheme => "تمكين المواد التي تظهرها";
+  String get lblMaterialTheme => "تمكين مظهر المواد";
 
   @override
-  String get lblServiceProof => "دليل الخدمة";
+  String get lblServiceProof => "إثبات الخدمة";
 
   @override
-  String get lblAndroid12Support => "هذا الإجراء سيعيد تشغيل تطبيقك. يتأكد؟";
+  String get lblAndroid12Support =>
+      "سيؤدي هذا الإجراء إلى إعادة تشغيل تطبيقك. هل أنت متأكد؟";
 
   @override
-  String get lblOff => "تخفيض";
+  String get lblOff => "إيقاف";
 
   @override
   String get lblHr => "ساعة";
 
   @override
-  String get lblSignInWithGoogle => "الدخول مع جوجل";
+  String get lblSignInWithGoogle => "تسجيل الدخول باستخدام جوجل";
 
   @override
-  String get lblSignInWithOTP => "تسجيل الدخول مع OTP";
+  String get lblSignInWithOTP => "تسجيل الدخول باستخدام OTP";
 
   @override
   String get lblDangerZone => "منطقة الخطر";
@@ -732,10 +749,10 @@ class LanguageAr extends BaseLanguage {
   String get lblUnderMaintenance => "تحت الصيانة...";
 
   @override
-  String get lblCatchUpAfterAWhile => "اللحاق بعد فترة من الوقت";
+  String get lblCatchUpAfterAWhile => "العودة بعد فترة";
 
   @override
-  String get lblId => "هوية شخصية";
+  String get lblId => "الهوية";
 
   @override
   String get lblMethod => "الطريقة";
@@ -747,26 +764,26 @@ class LanguageAr extends BaseLanguage {
   String get lblPending => "قيد الانتظار";
 
   @override
-  String get confirmationRequestTxt => "هل أنت متأكد من أن تنفيذ هذا الإجراء؟";
+  String get confirmationRequestTxt => "هل أنت متأكد من تنفيذ هذا الإجراء؟";
 
   @override
   String get lblDeleteAccountConformation =>
-      "سيتم حذف حسابك بشكل دائم. لن تتم استعادة بياناتك مرة أخرى.";
+      "سيتم حذف حسابك بشكل دائم. لن تتم استعادة بياناتك.";
 
   @override
   String get lblAutoSliderStatus => "حالة التمرير التلقائي";
 
   @override
-  String get lblPickAddress => "اختيار العنوان";
+  String get lblPickAddress => "اختر العنوان";
 
   @override
   String get lblUpdateDateAndTime => "تحديث التاريخ والوقت";
 
   @override
-  String get lblRecheck => "إعادة فحص";
+  String get lblRecheck => "إعادة الفحص";
 
   @override
-  String get lblLoginAgain => "الرجاد الدخول على الحساب من جديد";
+  String get lblLoginAgain => "الرجاء تسجيل الدخول مرة أخرى";
 
   @override
   String get lblUpdate => "تحديث";
@@ -775,47 +792,47 @@ class LanguageAr extends BaseLanguage {
   String get lblNewUpdate => "تحديث جديد";
 
   @override
-  String get lblOptionalUpdateNotify => "اشعار تحديث اختياري";
+  String get lblOptionalUpdateNotify => "إشعار تحديث اختياري";
 
   @override
-  String get lblAnUpdateTo => "تحديث ل";
+  String get lblAnUpdateTo => "تحديث لـ";
 
   @override
-  String get lblIsAvailableWouldYouLike => "متاح. هل ترغب في تحديث؟";
+  String get lblIsAvailableWouldYouLike => "متاح. هل ترغب في التحديث؟";
 
   @override
   String get lblRegisterAsPartner => "سجل كشريك";
 
   @override
-  String get lblSignInWithApple => "تسجيل الدخول مع Apple";
+  String get lblSignInWithApple => "تسجيل الدخول باستخدام Apple";
 
   @override
   String get lblWaitingForProviderApproval => "في انتظار موافقة المزود";
 
   @override
-  String get lblFree => "غير مدفوع الأجر";
+  String get lblFree => "مجاني";
 
   @override
   String get lblAppleSignInNotAvailable =>
-      "تسجيل الدخول باستخدام Apple غير متوفرة لجهازك";
+      "تسجيل الدخول باستخدام Apple غير متاح لجهازك";
 
   @override
   String get lblTotalExtraCharges => "إجمالي الرسوم الإضافية";
 
   @override
-  String get lblWaitingForResponse => "بإنتظار الرد";
+  String get lblWaitingForResponse => "بانتظار الرد";
 
   @override
-  String get lblAll => "الجميع";
+  String get lblAll => "الكل";
 
   @override
-  String get noConversation => "لا محادثة";
+  String get noConversation => "لا توجد محادثات";
 
   @override
-  String get noConversationSubTitle => "لم تقم بأي محادثة بعد.";
+  String get noConversationSubTitle => "لم تقم بأي محادثة حتى الآن.";
 
   @override
-  String get noBookingSubTitle => "يبدو أنك لم تحجز طلبك بعد";
+  String get noBookingSubTitle => "يبدو أنك لم تحجز طلبك بعد.";
 
   @override
   String get myReviews => "تقييماتي";
@@ -839,13 +856,13 @@ class LanguageAr extends BaseLanguage {
   String get addNewService => "أضف خدمة جديدة";
 
   @override
-  String get newPostJobRequest => 'نشر طلب عمل جديد';
+  String get newPostJobRequest => "طلب عمل جديد";
 
   @override
-  String get postJobTitle => "اسم العمل";
+  String get postJobTitle => "عنوان العمل";
 
   @override
-  String get postJobDescription => " تفاصيل العمل";
+  String get postJobDescription => "تفاصيل العمل";
 
   @override
   String get services => "خدمات";
@@ -857,105 +874,104 @@ class LanguageAr extends BaseLanguage {
   String get requestNewJob => "طلب وظيفة جديدة";
 
   @override
-  String get noNotifications => "لا إشعارات";
+  String get noNotifications => "لا توجد إشعارات";
 
   @override
-  String get noNotificationsSubTitle =>
-      "سنقوم بإعلامك بمجرد أن يكون لدينا شيء لك";
+  String get noNotificationsSubTitle => "سنقوم بإبلاغك فور توفر شيء جديد لك.";
 
   @override
-  String get noFavouriteSubTitle => "ستظهر خدماتك المفضلة هنا";
+  String get noFavouriteSubTitle => "ستظهر خدماتك المفضلة هنا.";
 
   @override
   String get termsConditionsAccept => "يرجى قبول الشروط والأحكام";
 
   @override
-  String get disclaimer => "تنصل";
+  String get disclaimer => "إخلاء المسؤولية";
 
   @override
-  String get disclaimerContent => "سيُطلب منك الدفع بمجرد اكتمال الحجز.";
+  String get disclaimerContent => "سيتم طلب الدفع بمجرد اكتمال الحجز.";
 
   @override
-  String get inputMustBeNumberOrDigit => 'يجب أن يكون الإدخال رقمًا أو رمزا';
+  String get inputMustBeNumberOrDigit => "يجب أن يكون الإدخال رقمًا أو رمزًا";
 
   @override
-  String get requiredAfterCountryCode => 'مطلوب بعد رمز البلد';
+  String get requiredAfterCountryCode => "مطلوب بعد رمز البلد";
 
   @override
   String get selectedOtherBookingTime =>
-      'تم تمرير وقت الحجز المحدد بالفعل. الرجاء تحديد وقت آخر.';
+      "الوقت المحدد للحجز قد مر. يرجى اختيار وقت آخر.";
 
   @override
-  String get myServices => 'خدماتي';
+  String get myServices => "خدماتي";
 
   @override
-  String get doYouWantToAssign => 'هل تريد تعيين';
+  String get doYouWantToAssign => "هل تريد التعيين؟";
 
   @override
-  String get bidPrice => 'سعر العرض';
+  String get bidPrice => "سعر العرض";
 
   @override
-  String get accept => 'قبول';
+  String get accept => "قبول";
 
   @override
-  String get price => 'السعر';
+  String get price => "السعر";
 
   @override
-  String get remove => 'إزالة';
+  String get remove => "إزالة";
 
   @override
-  String get add => 'اضافة';
+  String get add => "إضافة";
 
   @override
-  String get save => 'حفظ';
+  String get save => "حفظ";
 
   @override
   String get createPostJobWithoutSelectService =>
-      'لا يمكنك نشر إنشاء وظيفة دون اختيار الخدمة';
+      "لا يمكنك نشر الوظيفة دون اختيار خدمة";
 
   @override
-  String get selectCategory => 'اختر الفئة';
+  String get selectCategory => "اختر الفئة";
 
   @override
-  String get pleaseAddImage => 'الرجاء إضافة الصورة';
+  String get pleaseAddImage => "الرجاء إضافة صورة";
 
   @override
   String get selectedBookingTimeIsAlreadyPassed =>
-      'تم تمرير وقت الحجز المحدد بالفعل. الرجاء تحديد وقت آخر.';
+      "الوقت المحدد للحجز قد مر. يرجى اختيار وقت آخر.";
 
   @override
-  String get jobPrice => 'سعر الوظيفة';
+  String get jobPrice => "سعر الوظيفة";
 
   @override
-  String get estimatedPrice => 'السعر المقدر';
+  String get estimatedPrice => "السعر المقدر";
 
   @override
-  String get bidder => 'مزايد';
+  String get bidder => "المزايد";
 
   @override
   String get assignedProvider => 'مزود مخصص';
 
   @override
-  String get myPostDetail => 'تفاصيل ما بعد ذلك';
+  String get myPostDetail => 'تفاصيل المنشور';
 
   @override
   String get bookingConfirmedMsg => 'تم تأكيد حجزك.';
 
   @override
-  String get goToHome => 'اذهب إلى الرئيسية';
+  String get goToHome => 'الانتقال إلى الرئيسية';
 
   @override
-  String get goToReview => 'اذهب للتقيميات';
+  String get goToReview => 'الانتقال إلى التقييمات';
 
   @override
   String get noServiceAdded => 'لم تتم إضافة خدمة';
 
   @override
-  String get noPostJobFound => 'لم يتم العثور على وظيفة بعد';
+  String get noPostJobFound => 'لم يتم العثور على وظائف بعد';
 
   @override
   String get noPostJobFoundSubtitle =>
-      'عندما تنشر وظيفتك ، سيتم إخطار كل مزود ، ويمكنك اختيار مزودك المطلوب لإنجاز المهمة.';
+      'عند نشر وظيفتك، سيتم إخطار كل مزود، ويمكنك اختيار مزود لإتمام المهمة.';
 
   @override
   String get pleaseEnterValidOTP => 'الرجاء إدخال OTP صالح';
@@ -968,22 +984,22 @@ class LanguageAr extends BaseLanguage {
 
   @override
   String get pleaseSelectDifferentSlotThenPrevious =>
-      '""الرجاء تحديد اوقات عمل مختلفة ثم السابق';
+      'الرجاء اختيار فترة زمنية مختلفة عن السابقة';
 
   @override
-  String get pleaseSelectTheSlotsFirst => 'الرجاء تحديد اوقات العمل أولاً';
+  String get pleaseSelectTheSlotsFirst => 'الرجاء تحديد الفترات الزمنية أولاً';
 
   @override
-  String get editTimeSlotsBooking => 'تحرير اوقات العمل  للحجز ';
+  String get editTimeSlotsBooking => 'تحرير فترات العمل للحجز';
 
   @override
-  String get availableSlots => 'اوقات العمل المتاحة';
+  String get availableSlots => 'الفترات الزمنية المتاحة';
 
   @override
-  String get noTimeSlots => 'لا اوقات عمل زمنية';
+  String get noTimeSlots => 'لا توجد فترات زمنية متاحة';
 
   @override
-  String get bookingDateAndSlot => 'موعد Oofk و اوقات العمل';
+  String get bookingDateAndSlot => 'تاريخ الحجز والفترة الزمنية';
 
   @override
   String get extraCharges => 'رسوم إضافية';
@@ -992,18 +1008,18 @@ class LanguageAr extends BaseLanguage {
   String get chatCleared => 'تم مسح الدردشة';
 
   @override
-  String get clearChat => 'دردشة واضحة';
+  String get clearChat => 'مسح الدردشة';
 
   @override
   String get jobRequestSubtitle =>
-      'خدمتك غير موجودة في النظام؟ لا تقلق ، يمكنك نشر متطلباتك.';
+      'خدمتك غير متاحة في النظام؟ لا تقلق، يمكنك نشر متطلباتك.';
 
   @override
   String get verified => 'تم التحقق';
 
   @override
   String get theEnteredCodeIsInvalidPleaseTryAgain =>
-      'الرمز الذي تم إدخاله غير صالح ، يرجى المحاولة مرة أخرى';
+      'الرمز الذي تم إدخاله غير صالح، يرجى المحاولة مرة أخرى';
 
   @override
   String get otpCodeIsSentToYourMobileNumber =>
@@ -1011,87 +1027,86 @@ class LanguageAr extends BaseLanguage {
 
   @override
   String get yourPaymentFailedPleaseTryAgain =>
-      'فشلت دفعتك ، يرجى المحاولة مرة أخرى';
+      'فشلت عملية الدفع، يرجى المحاولة مرة أخرى';
 
   @override
-  String get yourPaymentHasBeenMadeSuccessfully => 'تم سداد دفعتك بنجاح';
+  String get yourPaymentHasBeenMadeSuccessfully => 'تم الدفع بنجاح';
 
   @override
-  String get transactionFailed => 'فشل الاجراء';
+  String get transactionFailed => 'فشلت المعاملة';
 
   @override
-  String get lblStep3 => "الخطوه 3";
+  String get lblStep3 => "الخطوة 3";
 
   @override
   String get lblAvailableOnTheseDays => "متاح في هذه الأيام";
 
   @override
-  String get internetNotAvailable => 'يبدو أن الإنترنت الخاص بك غير متصل';
+  String get internetNotAvailable => 'يبدو أن اتصالك بالإنترنت غير متاح';
 
   @override
-  String get pleaseTryAgain => 'حاول مرة اخرى';
+  String get pleaseTryAgain => 'الرجاء المحاولة مرة أخرى';
 
   @override
-  String get somethingWentWrong => 'هناك خطأ ما';
+  String get somethingWentWrong => 'حدث خطأ ما';
 
   @override
-  String get postJob => 'طلب عمل';
+  String get postJob => 'طلب وظيفة';
 
   @override
   String get package => 'حزمة';
 
   @override
-  String get frequentlyBoughtTogether =>
-      'اشترى في كثير من الأحيان جنبا إلى جنب';
+  String get frequentlyBoughtTogether => 'غالباً ما يتم شراؤها معاً';
 
   @override
-  String get endOn => 'ينتهي';
+  String get endOn => 'ينتهي في';
 
   @override
   String get buy => 'شراء';
 
   @override
-  String get includedServices => 'شملت الخدمات';
+  String get includedServices => 'الخدمات المشمولة';
 
   @override
-  String get includedInThisPackage => 'المدرجة في هذه الحزمة';
+  String get includedInThisPackage => 'المشمولة في هذه الحزمة';
 
   @override
-  String get lblInvalidTransaction => 'المعاملة غير صالحة';
+  String get lblInvalidTransaction => 'معاملة غير صالحة';
 
   @override
   String get getTheseServiceWithThisPackage =>
       'ستحصل على هذه الخدمات مع هذه الحزمة';
 
   @override
-  String get lblNotValidUser => 'مستخدم غير صحيح';
+  String get lblNotValidUser => 'مستخدم غير صالح';
 
   @override
-  String get lblSkip => 'تخطى';
+  String get lblSkip => 'تخطي';
 
   @override
   String get lblChangeCountry => 'تغيير الدولة';
 
   @override
-  String get lblTimeSlotNotAvailable => 'اوقات العمل غير متوفرة';
+  String get lblTimeSlotNotAvailable => 'الفترة الزمنية غير متاحة';
 
   @override
   String get lblAreYouSureWant => 'هل أنت متأكد أنك تريد';
 
   @override
-  String get lblAdd => 'اضافة';
+  String get lblAdd => 'إضافة';
 
   @override
   String get lblThisService => 'هذه الخدمة';
 
   @override
-  String get lblYourCurrenciesNotSupport => 'عملاتك لا تدعم CinetPay';
+  String get lblYourCurrenciesNotSupport => 'عملتك غير مدعومة في CinetPay';
 
   @override
   String get lblSignInFailed => 'فشل تسجيل الدخول';
 
   @override
-  String get lblUserCancelled => 'تم إلغاء المستخدم';
+  String get lblUserCancelled => 'تم إلغاء العملية من قبل المستخدم';
 
   @override
   String get lblTransactionCancelled => 'تم إلغاء المعاملة';
@@ -1100,14 +1115,14 @@ class LanguageAr extends BaseLanguage {
   String get lblExample => 'مثال';
 
   @override
-  String get lblCheckOutWithCinetPay => 'الخروج مع CinetPay';
+  String get lblCheckOutWithCinetPay => 'الدفع باستخدام CinetPay';
 
   @override
-  String get lblLocationPermissionDenied => 'تم رفض أذونات استخدام الموقع.';
+  String get lblLocationPermissionDenied => 'تم رفض إذن استخدام الموقع.';
 
   @override
   String get lblLocationPermissionDeniedPermanently =>
-      'يتم رفض أذونات الموقع بشكل دائم ، لا يمكننا طلب الأذونات.';
+      'تم رفض إذن الموقع بشكل دائم، لا يمكننا طلب الإذن مرة أخرى.';
 
   @override
   String get lblEnableLocation => 'يرجى التأكد من تمكين خدمات الموقع.';
@@ -1127,23 +1142,27 @@ class LanguageAr extends BaseLanguage {
 
   @override
   String get favouriteProvider => 'المزود المفضل';
-  @override
-  String get myHome => 'منزلي';
-  @override
-  String get myPlan => 'اشتراكاتي';
 
   @override
-  String get noProviderFoundMessage => 'سيظهر مقدمي الخدمات المفضلين لديك هنا';
+  String get myHome => 'منزلي';
+
+  @override
+  String get myPlan => 'خطتي';
+
+  @override
+  String get noProviderFoundMessage => 'سيتم عرض مزودي الخدمات المفضلين هنا';
+
   @override
   String get cart => 'سلة التسوق';
 
   @override
-  String get checkout => 'استكمال الطلب';
+  String get checkout => 'إتمام الطلب';
+
   @override
   String get personalInfo => 'معلومات شخصية';
 
   @override
-  String get essentialSkills => 'مهارات اساسيه';
+  String get essentialSkills => 'مهارات أساسية';
 
   @override
   String get knownLanguages => 'اللغات المعروفة';
@@ -1152,27 +1171,27 @@ class LanguageAr extends BaseLanguage {
   String get authorBy => 'مؤلف';
 
   @override
-  String get views => 'الآراء';
+  String get views => 'المشاهدات';
 
   @override
   String get blogs => 'المدونات';
 
   @override
-  String get noBlogsFound => 'لم يتم العثور على مدونات';
+  String get noBlogsFound => 'لم يتم العثور على أي مدونات';
 
   @override
-  String get requestInvoice => 'طلب الفاتورة';
+  String get requestInvoice => 'طلب فاتورة';
 
   @override
   String get invoiceSubTitle =>
-      'أدخل عنوان البريد الإلكتروني حيث ترغب في تلقي فاتورتك';
+      'أدخل عنوان البريد الإلكتروني الذي ترغب في استلام فاتورتك عليه';
 
   @override
   String get sentInvoiceText =>
-      'يرجى التحقق من بريدك الإلكتروني الذي الرسلنا اليه الفاتورة.';
+      'يرجى التحقق من بريدك الإلكتروني. تم إرسال الفاتورة بنجاح.';
 
   @override
-  String get send => 'ارسال';
+  String get send => 'إرسال';
 
   @override
   String get published => 'تم النشر';
@@ -1181,7 +1200,7 @@ class LanguageAr extends BaseLanguage {
   String get clearChatMessage => 'هل أنت متأكد أنك تريد مسح هذه الدردشة؟';
 
   @override
-  String get deleteMessage => 'هل تريد أن تحذف';
+  String get deleteMessage => 'هل تريد حذف هذه الرسالة؟';
 
   @override
   String get accepted => 'مقبول';
@@ -1193,7 +1212,7 @@ class LanguageAr extends BaseLanguage {
   String get inProgress => 'قيد العمل';
 
   @override
-  String get cancelled => 'ألغيت';
+  String get cancelled => 'تم الإلغاء';
 
   @override
   String get rejected => 'مرفوض';
@@ -1205,50 +1224,50 @@ class LanguageAr extends BaseLanguage {
   String get completed => 'مكتمل';
 
   @override
-  String get pendingApproval => 'ما زال يحتاج الموافقة';
+  String get pendingApproval => 'بانتظار الموافقة';
 
   @override
-  String get waiting => 'انتظار';
+  String get waiting => 'في الانتظار';
 
   @override
   String get paid => 'مدفوع';
 
   @override
-  String get advancePaid => 'دفع مسبقا';
+  String get advancePaid => 'مدفوع مقدمًا';
 
   @override
   String get insufficientBalanceMessage =>
-      'لا يوجد رصيد كافي في محفظتك. الرجاء اختيار طريقة أخرى.';
+      'لا يوجد رصيد كافٍ في محفظتك. يرجى اختيار طريقة دفع أخرى.';
 
   @override
-  String get cinetPayNotSupportedMessage => 'CinetPay غير مدعوم من عملاتك';
+  String get cinetPayNotSupportedMessage => 'CinetPay غير مدعوم بعملتك';
 
   @override
-  String get loading => 'تحميل..';
+  String get loading => 'جارٍ التحميل...';
 
   @override
   String get walletBalance => 'رصيد المحفظة';
 
   @override
-  String get payAdvance => 'دفع تقدم';
+  String get payAdvance => 'دفع مقدم';
 
   @override
-  String get advancePaymentMessage => 'قم بعمل دفعة مسبقة لإكمال الحجز';
+  String get advancePaymentMessage => 'قم بدفع دفعة مسبقة لإكمال الحجز';
 
   @override
-  String get advancePayAmount => 'مبلغ الدفع المسبق';
+  String get advancePayAmount => 'مبلغ الدفعة المقدمة';
 
   @override
-  String get remainingAmount => 'الكمية المتبقية';
+  String get remainingAmount => 'المبلغ المتبقي';
 
   @override
-  String get advancePayment => 'الدفع المسبق';
+  String get advancePayment => 'الدفعة المقدمة';
 
   @override
-  String get withExtraAndAdvanceCharge => 'مع رسوم إضافية و الدفع المسبق';
+  String get withExtraAndAdvanceCharge => 'يشمل رسوم إضافية ودفع مقدم';
 
   @override
-  String get withExtraCharge => 'مع رسوم إضافية';
+  String get withExtraCharge => 'يشمل رسوم إضافية';
 
   @override
   String get min => 'دقيقة';
@@ -1257,10 +1276,10 @@ class LanguageAr extends BaseLanguage {
   String get hour => 'ساعة';
 
   @override
-  String get customerRatingMessage => 'أخبر الآخرين برأيك';
+  String get customerRatingMessage => 'شارك الآخرين برأيك';
 
   @override
-  String get paymentHistory => 'سجل الدفع';
+  String get paymentHistory => 'سجل المدفوعات';
 
   @override
   String get message => 'رسالة';
@@ -1269,7 +1288,7 @@ class LanguageAr extends BaseLanguage {
   String get wallet => 'محفظة';
 
   @override
-  String get payWithFlutterWave => 'دفع مع Flutterwave';
+  String get payWithFlutterWave => 'الدفع عبر Flutterwave';
 
   @override
   String get goodMorning => 'صباح الخير';
@@ -1281,78 +1300,78 @@ class LanguageAr extends BaseLanguage {
   String get goodEvening => 'مساء الخير';
 
   @override
-  String get invalidURL => 'URL غير صالح';
+  String get invalidURL => 'الرابط غير صالح';
 
   @override
   String get use24HourFormat => 'استخدام تنسيق 24 ساعة؟';
 
   @override
-  String get email => 'بريد إلكتروني';
+  String get email => 'البريد الإلكتروني';
 
   @override
-  String get badRequest => '400 طلب سىء';
+  String get badRequest => 'طلب غير صالح (400)';
 
   @override
-  String get forbidden => '403 ممنوع';
+  String get forbidden => 'ممنوع (403)';
 
   @override
-  String get pageNotFound => '404: الصفحة لم يتم العثور عليها';
+  String get pageNotFound => 'الصفحة غير موجودة (404)';
 
   @override
-  String get tooManyRequests => '429: الكثير من الطلبات';
+  String get tooManyRequests => 'طلبات كثيرة جدًا (429)';
 
   @override
-  String get internalServerError => '500: خطأ الخادم الداخلي';
+  String get internalServerError => 'خطأ في الخادم الداخلي (500)';
 
   @override
-  String get badGateway => '502 مدخل غير صالح';
+  String get badGateway => 'بوابة غير صالحة (502)';
 
   @override
-  String get serviceUnavailable => '503 الخدمة غير متوفرة';
+  String get serviceUnavailable => 'الخدمة غير متاحة (503)';
 
   @override
-  String get gatewayTimeout => '504 البوابة انتهى الزمن';
+  String get gatewayTimeout => 'انتهاء وقت البوابة (504)';
 
   @override
-  String get pleaseWait => 'انتظر من فضلك';
+  String get pleaseWait => 'يرجى الانتظار...';
 
   @override
   String get externalWallet => 'محفظة خارجية';
 
   @override
-  String get userNotFound => 'لم يتم العثور على المستخدم';
+  String get userNotFound => 'المستخدم غير موجود';
 
   @override
   String get requested => 'مطلوب';
 
   @override
-  String get assigned => 'مُكَلَّف';
+  String get assigned => 'مُعيَّن';
 
   @override
   String get currentPlan => 'الباقة الحالية';
 
   @override
   String get lblStripeTestCredential =>
-      'لا يمكن اختبار بيانات الاعتماد أكثر من 500';
+      'لا يمكن استخدام بيانات Stripe التجريبية لأكثر من 500 عملية';
 
   @override
   String get noDataFoundInFilter =>
-      'اختر أفضل معايير البحث للحصول على أفضل النتائج';
+      'لم يتم العثور على بيانات. يرجى تعديل معايير البحث.';
+
   @override
   String get PlanSubscrbitionSucces => 'تم الاشتراك في الباقة بنجاح';
 
   @override
-  String get addYourCountryCode => 'أضف رمز بلدك';
+  String get addYourCountryCode => 'أدخل رمز بلدك';
 
   @override
-  String get help => 'مساعدة';
+  String get help => 'المساعدة';
 
   @override
   String get couponCantApplied => 'لا يمكن تطبيق هذه القسيمة';
 
   @override
-  String get priceAmountValidationMessage =>
-      'يجب أن يكون مبلغ السعر مبشرة من 0';
+  String get priceAmountValidationMessage => 'يجب أن يكون المبلغ أكبر من 0';
 
   @override
   String get pleaseWaitWhileWeLoadChatDetails =>
@@ -1365,84 +1384,88 @@ class LanguageAr extends BaseLanguage {
   String get connectWithFirebaseForChat => 'تواصل مع Firebase للدردشة';
 
   @override
-  String get closeApp => 'أغلق التطبيق';
+  String get closeApp => 'إغلاق التطبيق';
 
   @override
-  String get providerAddedToFavourite => 'الموفر إضافة إلى القائمة المفضلة';
+  String get providerAddedToFavourite => 'تمت إضافة المزود إلى المفضلة';
 
   @override
-  String get providerRemovedFromFavourite => 'تم إزالته من القائمة المفضلة';
+  String get providerRemovedFromFavourite => 'تمت إزالة المزود من المفضلة';
 
   @override
   String get provideValidCurrentPasswordMessage =>
-      'يجب عليك توفير كلمة مرور الحالية صالحة';
+      'يجب عليك إدخال كلمة المرور الحالية بشكل صحيح';
 
   @override
-  String get copied => 'نسخ';
+  String get copied => 'تم النسخ';
 
   @override
   String get copyMessage => 'نسخ الرسالة';
 
   @override
-  String get messageDelete => 'حذف رسالة';
+  String get messageDelete => 'حذف الرسالة';
 
   @override
-  String get pleaseChooseAnyOnePayment => 'الرجاء اختيار أي طريقة دفع واحدة';
+  String get pleaseChooseAnyOnePayment => 'الرجاء اختيار طريقة دفع واحدة';
 
   @override
-  String get myWallet => 'محفظتى';
+  String get myWallet => 'محفظتي';
 
   @override
-  String get balance => 'توازن';
+  String get balance => 'الرصيد';
 
   @override
-  String get topUpWallet => 'محفظة أعلى';
+  String get topUpWallet => 'إضافة رصيد إلى المحفظة';
 
   @override
-  String get topUpAmountQuestion => 'ما هو المبلغ الذي تفضل أن تتفوق عليه؟';
+  String get topUpAmountQuestion => 'كم ترغب في إضافة إلى رصيدك؟';
 
   @override
-  String get paymentMethod => 'طريقة الدفع او السداد';
+  String get paymentMethod => 'طريقة الدفع';
 
   @override
   String get selectYourPaymentMethodToAddBalance =>
-      'حدد طريقة الدفع الخاصة بك لإضافة رصيد';
+      'اختر طريقة الدفع الخاصة بك لإضافة رصيد';
 
   @override
-  String get proceedToTopUp => 'انتقل إلى أعلى';
+  String get proceedToTopUp => 'المتابعة لإضافة الرصيد';
 
   @override
-  String get serviceAddedToFavourite => 'تمت إضافة الخدمة إلى القائمة المفضلة';
+  String get serviceAddedToFavourite => 'تمت إضافة الخدمة إلى المفضلة';
 
   @override
-  String get serviceRemovedFromFavourite =>
-      'تمت إزالة الخدمة من القائمة المفضلة';
+  String get serviceRemovedFromFavourite => 'تمت إزالة الخدمة من المفضلة';
 
   @override
   String get firebaseRemoteCannotBe =>
-      'لا يمكن توصيل جهاز التحكم عن بُعد Firebase';
+      'لا يمكن الاتصال بالتحكم عن بُعد لـ Firebase';
 
   @override
-  String get search => 'يبحث';
+  String get search => 'بحث';
 
   @override
   String get totalAmountShouldBeMoreThan =>
       'يجب أن يكون المبلغ الإجمالي أكثر من';
+
   @override
-  String get paymentSuccesss => 'تم الدفع بنجاح واكتمال الاشتراك في الباقة';
+  String get paymentSuccesss => 'تمت عملية الدفع بنجاح';
+
   @override
   String get totalAmountShouldBeLessThan =>
       'يجب أن يكون المبلغ الإجمالي أقل من';
+
   @override
-  String get specialSubscriptionOffers => 'عروض اشتراك مميزة!';
+  String get specialSubscriptionOffers => 'عروض اشتراك خاصة!';
+
   @override
-  String get doYouWantToTopUpYourWallet => 'هل تريد أن تسبق محفظتك الآن؟';
+  String get doYouWantToTopUpYourWallet =>
+      'هل تريد إضافة رصيد إلى محفظتك الآن؟';
 
   @override
   String get chooseYourLocation => 'اختر موقعك';
 
   @override
-  String get connect => 'يتصل';
+  String get connect => 'الاتصال';
 
   @override
   String get transactionId => 'رقم المعاملة';
@@ -1451,47 +1474,63 @@ class LanguageAr extends BaseLanguage {
   String get at => 'في';
 
   @override
-  String get appliedTaxes => 'الضرائب التطبيقية';
+  String get appliedTaxes => 'الضرائب المطبقة';
 
   @override
   String get accessDeniedContactYourAdmin =>
-      'تم الرفض. اتصل بمسؤولك للحصول على المساعدة.';
+      'تم رفض الوصول. يرجى التواصل مع المسؤول للحصول على المساعدة.';
 
   @override
   String get yourWalletIsUpdated => 'تم تحديث محفظتك!';
 
   @override
   String get by => 'بواسطة';
-  @override
-  String get EndDate => 'تاريخ الانتهاء';
-  @override
-  String get Address => 'العنوان';
-  @override
-  String get BuildingNo => 'رقم المبنى';
-  @override
-  String get FlatNo => 'رقم الشقة';
-  @override
-  String get NoOrdersSubTitle => 'لا توجد طلبات حتى الآن';
-  @override
-  String get MaintenanceBorne => 'الصيانة المتكبدة';
-  @override
-  String get BorneType => 'نوع التكلفة';
-  @override
-  String get BorneAmount => 'مبلغ التكلفة';
-  @override
-  String get StartDate => 'تاريخ البداية';
-  String get MyOrder => 'طلبات المتجر';
-  @override
-  String get NoOrdersFound => 'لم يتم العثور على طلبات';
 
   @override
-  String get NoProductsFound => 'لم يتم العثور على منتجات';
+  String get EndDate => 'تاريخ الانتهاء';
+
+  @override
+  String get Address => 'العنوان';
+
+  @override
+  String get BuildingNo => 'رقم المبنى';
+
+  @override
+  String get FlatNo => 'رقم الشقة';
+
+  @override
+  String get NoOrdersSubTitle => 'لا توجد طلبات حتى الآن';
+
+  @override
+  String get MaintenanceBorne => 'تكلفة الصيانة';
+
+  @override
+  String get BorneType => 'نوع التكلفة';
+
+  @override
+  String get BorneAmount => 'مبلغ التكلفة';
+
+  @override
+  String get StartDate => 'تاريخ البداية';
+
+  @override
+  String get MyOrder => 'طلباتي';
+
+  @override
+  String get NoOrdersFound => 'لم يتم العثور على أي طلبات';
+
+  @override
+  String get NoProductsFound => 'لم يتم العثور على أي منتجات';
+
   @override
   String get noPaymentMethodFound => 'لم يتم العثور على طريقة دفع';
+
   @override
   String get SpecialSubscriptionOffers => 'عروض الاشتراك الخاصة!';
+
   @override
   String get Store => 'المتجر';
+
   @override
   String get product => 'منتج';
 
@@ -1502,108 +1541,109 @@ class LanguageAr extends BaseLanguage {
   String get walletHistory => 'تاريخ المحفظة';
 
   @override
-  String get debit => 'دَين';
+  String get debit => 'مدين';
 
   @override
-  String get credit => 'ائتمان';
+  String get credit => 'دائن';
 
   @override
   String get youCannotApplyThisCoupon => 'لا يمكنك تطبيق هذه القسيمة';
 
   @override
-  String get basedOn => 'مرتكز على';
+  String get basedOn => 'بناءً على';
 
   @override
   String get serviceStatusPicMessage =>
       'يرجى التأكد من اختيار حالة حجز واحدة على الأقل';
 
   @override
-  String get clearFilter => 'مرشح واضح';
+  String get clearFilter => 'مسح الفلتر';
 
   @override
-  String get bookingStatus => 'وضع الحجز';
+  String get bookingStatus => 'حالة الحجز';
 
   @override
-  String get addOns => 'الوظائف الإضافية';
+  String get addOns => 'إضافات';
 
   @override
-  String get serviceAddOns => 'الوظائف الإضافية للخدمة';
+  String get serviceAddOns => 'إضافات الخدمة';
 
   @override
-  String get turnOn => 'شغله';
+  String get turnOn => 'تشغيل';
 
   @override
-  String get turnOff => 'أطفأ';
+  String get turnOff => 'إيقاف';
 
   @override
   String get serviceVisitType => 'نوع زيارة الخدمة';
 
   @override
   String get thisServiceIsOnlineRemote =>
-      'سيتم إكمال هذه الخدمة عبر الإنترنت/عن بُعد.';
+      'ستتم هذه الخدمة عبر الإنترنت/عن بُعد.';
 
   @override
   String get deleteMessageForAddOnService =>
-      'هل تريد إزالة هذه الخدمة الإضافية؟';
+      'هل تريد إزالة هذه الإضافة من الخدمة؟';
 
   @override
-  String get confirmation => 'تأكيد!';
+  String get confirmation => 'تأكيد';
 
   @override
   String get pleaseNoteThatAllServiceMarkedCompleted =>
-      'يرجى ملاحظة أن جميع الوظائف الإضافية للخدمة محددة كما اكتملت!';
+      'يرجى ملاحظة أن جميع الإضافات تم اعتبارها مكتملة!';
 
   @override
   String get writeHere => 'اكتب هنا';
 
   @override
   String get isAvailableGoTo =>
-      'متاح. انتقل إلى المتجر وتنزيل الإصدار الجديد من التطبيق.';
+      'متاح. انتقل إلى المتجر وقم بتنزيل النسخة الجديدة من التطبيق.';
 
   @override
-  String get later => 'لاحقاً';
+  String get later => 'لاحقًا';
 
   @override
   String get whyChooseMe => 'لماذا تختارني؟';
 
   @override
-  String get useThisCodeToGet => 'استخدم هذا الرمز للحصول على';
+  String get useThisCodeToGet => 'استخدم هذا الرمز للحصول على خصم';
 
   @override
-  String get off => 'عن';
+  String get off => 'خصم';
 
   @override
-  String get applied => 'مُطبَّق';
+  String get applied => 'مطبق';
 
   @override
-  String get coupons => 'كوبونات';
+  String get coupons => 'قسائم';
 
   @override
-  String get handymanList => 'قائمة الماشية';
+  String get handymanList => 'قائمة الحرفيين';
 
   @override
-  String get noHandymanFound => 'لم يتم العثور على الماشية';
+  String get noHandymanFound => 'لم يتم العثور على حرفي';
 
   @override
-  String get back => 'خلف';
+  String get back => 'رجوع';
 
   @override
-  String get team => 'فريق';
+  String get team => 'الفريق';
 
   @override
   String get whyChooseMeAs => 'لماذا تختارني كمزود خدمة موثوق به';
 
   @override
-  String get reason => 'سبب';
+  String get reason => 'السبب';
 
   @override
-  String get pleaseEnterAddressAnd => 'الرجاء إدخال العنوان وحجز تاريخ وفتحة';
+  String get pleaseEnterAddressAnd =>
+      'الرجاء إدخال العنوان وتحديد تاريخ ووقت الحجز';
 
   @override
   String get pleaseEnterYourAddress => 'الرجاء إدخال عنوانك';
 
   @override
-  String get pleaseSelectBookingDate => 'الرجاء تحديد تاريخ الحجز والفتحة';
+  String get pleaseSelectBookingDate => 'الرجاء اختيار تاريخ ووقت الحجز';
 
   @override
   String get doYouWantTo => 'هل تريد إزالة هذه القسيمة؟';
@@ -1612,73 +1652,73 @@ class LanguageAr extends BaseLanguage {
   String get chooseDateTime => 'اختر التاريخ والوقت';
 
   @override
-  String get airtelMoneyPayment => 'Airtel الدفع المال';
+  String get airtelMoneyPayment => 'الدفع عبر Airtel Money';
 
   @override
   String get recommendedForYou => 'موصى به لك';
 
   @override
-  String get paymentSuccess => 'الدفع الناجح';
+  String get paymentSuccess => 'تم الدفع بنجاح';
 
   @override
-  String get redirectingToBookings => 'إعادة توجيه الحجوزات ..';
+  String get redirectingToBookings => 'إعادة التوجيه إلى الحجوزات...';
 
   @override
-  String get transactionIsInProcess => 'المعاملة قيد التشغيل ...';
+  String get transactionIsInProcess => 'المعاملة قيد المعالجة...';
 
   @override
   String get pleaseCheckThePayment => 'يرجى التحقق من طلب الدفع إلى رقمك';
 
   @override
-  String get enterYourMsisdnHere => 'أدخل msisdn الخاص بك هنا';
+  String get enterYourMsisdnHere => 'أدخل رقم MSISDN الخاص بك هنا';
 
   @override
   String get theTransactionIsStill =>
-      'لا تزال المعاملة معالجة وهي في حالة غامضة. يرجى إجراء استفسار المعاملة لجلب حالة المعاملة.';
+      'المعاملة ما زالت قيد المعالجة وهي في حالة غير محددة. يرجى التحقق لاحقًا لحالة المعاملة.';
 
   @override
-  String get transactionIsSuccessful => 'عملية ناجحة';
+  String get transactionIsSuccessful => 'تمت العملية بنجاح';
 
   @override
-  String get incorrectPinHasBeen => 'تم إدخال رقم التعريف الشخصي غير الصحيح';
+  String get incorrectPinHasBeen => 'تم إدخال رقم تعريف شخصي غير صحيح';
 
   @override
   String get theUserHasExceeded =>
-      'لقد تجاوز المستخدم حد معاملة محفظته المسموح به';
+      'لقد تجاوز المستخدم الحد الأقصى للمعاملات المسموح بها في محفظته';
 
   @override
   String get theAmountUserIs =>
       'المبلغ الذي يحاول المستخدم نقله أقل من الحد الأدنى المسموح به';
 
   @override
-  String get userDidnTEnterThePin => 'لم يدخل المستخدم الرقم التعريف الشخصي';
+  String get userDidnTEnterThePin => 'لم يدخل المستخدم رقم التعريف الشخصي';
 
   @override
   String get transactionInPendingState =>
-      'المعاملة في حالة معلقة. يرجى التحقق بعد وقت ما';
+      'المعاملة في حالة انتظار. يرجى التحقق مرة أخرى لاحقًا';
 
   @override
   String get userWalletDoesNot =>
-      'لا تحتوي محفظة المستخدم على ما يكفي من المال لتغطية المبلغ المستحق';
+      'محفظة المستخدم لا تحتوي على أموال كافية لتغطية المبلغ المستحق';
 
   @override
-  String get theTransactionWasRefused => 'تم رفض الصفقة';
+  String get theTransactionWasRefused => 'تم رفض المعاملة';
 
   @override
-  String get thisIsAGeneric => 'هذا رفض عام له عدة أسباب محتملة';
+  String get thisIsAGeneric => 'هذا رفض عام لعدة أسباب محتملة';
 
   @override
   String get payeeIsAlreadyInitiated =>
-      'تم بالفعل بدء Pleadee لـ Churn أو Barred أو غير مسجل على منصة Airtel Money';
+      'تم بالفعل بدء الدفع أو أن المستلم غير مسجل على منصة Airtel Money';
 
   @override
-  String get theTransactionWasTimed => 'تم توقيت المعاملة.';
+  String get theTransactionWasTimed => 'انتهت صلاحية المعاملة بسبب الوقت';
 
   @override
-  String get theTransactionWasNot => 'لم يتم العثور على المعاملة.';
+  String get theTransactionWasNot => 'لم يتم العثور على المعاملة';
 
   @override
-  String get xSignatureAndPayloadDid => 'لا يتطابق التوقيع X والحمولة';
+  String get xSignatureAndPayloadDid => 'التوقيع X والحمولة غير متطابقين';
 
   @override
   String get encryptionKeyHasBeen => 'تم جلب مفتاح التشفير بنجاح';
@@ -1690,16 +1730,16 @@ class LanguageAr extends BaseLanguage {
   String get transactionHasBeenExpired => 'انتهت صلاحية المعاملة';
 
   @override
-  String get ambiguous => 'غامض';
+  String get ambiguous => 'غير واضح';
 
   @override
   String get success => 'نجاح';
 
   @override
-  String get incorrectPin => 'دبوس غير صحيح';
+  String get incorrectPin => 'رقم تعريف شخصي غير صحيح';
 
   @override
-  String get exceedsWithdrawalAmountLimitS => 'يتجاوز حد مبلغ السحب (ق)';
+  String get exceedsWithdrawalAmountLimitS => 'يتجاوز الحد الأقصى لمبلغ السحب';
 
   @override
   String get invalidAmount => 'مبلغ غير صحيح';
@@ -1708,39 +1748,38 @@ class LanguageAr extends BaseLanguage {
   String get transactionIdIsInvalid => 'معرف المعاملة غير صالح';
 
   @override
-  String get inProcess => 'تحت المعالجة';
+  String get inProcess => 'قيد المعالجة';
 
   @override
-  String get notEnoughBalance => 'لا يكفي التوازن';
+  String get notEnoughBalance => 'الرصيد غير كافٍ';
 
   @override
-  String get refused => 'رفض';
+  String get refused => 'مرفوض';
 
   @override
-  String get doNotHonor => 'لا تتباهي';
+  String get doNotHonor => 'غير مسموح';
 
   @override
-  String get transactionNotPermittedTo => 'المعاملة غير مسموح بالوظف';
+  String get transactionNotPermittedTo => 'المعاملة غير مسموح بها للموظف';
 
   @override
-  String get transactionTimedOut => 'المعاملة توقيت خارج';
+  String get transactionTimedOut => 'انتهى وقت المعاملة';
 
   @override
-  String get transactionNotFound => 'المعاملة غير موجودة';
+  String get transactionNotFound => 'لم يتم العثور على المعاملة';
 
   @override
-  String get forBidden => 'مُحرَّم';
+  String get forBidden => 'ممنوع';
 
   @override
-  String get successfullyFetchedEncryptionKey => 'مفتاح التشفير بنجاح';
+  String get successfullyFetchedEncryptionKey => 'تم جلب مفتاح التشفير بنجاح';
 
   @override
-  String get errorWhileFetchingEncryption => 'خطأ أثناء جلب مفتاح التشفير';
+  String get errorWhileFetchingEncryption => 'حدث خطأ أثناء جلب مفتاح التشفير';
 
   @override
   String get transactionExpired => 'انتهت صلاحية المعاملة';
 
   @override
-  // TODO: implement hintShipAddressTxt
   String get hintShipAddressTxt => 'عنوان الشحن';
 }
